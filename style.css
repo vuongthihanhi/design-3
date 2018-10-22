@@ -1,0 +1,143 @@
+body{
+    background-color: #eee;
+}
+.top-page {
+    display: flex;
+    width: 100%;
+}
+.logo {
+    font-size: 35px;
+    width: 50%;
+    text-transform: capitalize;
+    margin: 20px;
+    font-family: initial;
+}
+.list-menu {
+    display: flex;
+}
+.menu {
+    margin: 25px 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+    /* float: right; */
+}
+.title-page {
+    text-align: center;
+}
+.text-title {
+    text-transform: capitalize;
+    font-size: 25px;
+    /* margin: 21px 0; */
+    padding: 20px 0;
+    font-weight: 900;
+}
+.input-title {
+    /* font-size: 26px; */
+    margin: 0px 0 20px;
+}
+.input {
+    width: 260px;
+    height: 25px;
+    /* font-size: 20px; */
+}
+.btn-1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    background-color: yellow;
+    font-weight: 700;
+}
+.item {
+    /* width: 900px; */
+    width: 75%;
+    margin: 0 auto;
+}
+.item-1, .item-2, .item-3 {
+    display: flex;
+}
+.icons-1, .icons-2, .icons-3 {
+    font-size: 70px;
+    width: 130px;
+    height: 130px;
+}
+.icons-1 a, .icons-2 a, .icons-3 a{
+	color: #ff8c00;
+}
+.text-item {
+    margin: 20px;
+}
+.text-title- {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 600;
+}
+.detail {
+    font-size: 18px;
+}
+.iframe{
+	text-align: center;	
+}
+.iframe iframe{
+	width: 600px;
+	height: 310px;
+}
+.list-item {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+.list{
+    width: 312px;
+    border: 1px solid;
+    margin: 70px 10px;
+}
+.title-item {
+    text-align: center;
+    text-transform: uppercase;
+    /* margin: 15px; */
+    background-color: lightgray;
+    padding: 15px;
+}
+.title-item {
+    font-weight: 600;
+}
+.detail-item {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.btn {
+    font-size: 20px;
+    width: 90px;
+    height: 39px;
+    background-color: #ff8c00;
+    text-transform: uppercase;
+}
+.btn-item {
+    text-align: center;
+    margin: 10px;
+ }
+
+.footer {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ddd;
+    padding: 20px;
+}
+.ul-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.li-footer {
+    padding: 0 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.copyright {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 17px;
+    color: #444;
+    text-transform: capitalize;
+}
